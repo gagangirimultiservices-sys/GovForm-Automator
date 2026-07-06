@@ -18,7 +18,7 @@ from field_mapper import COMB, TICK, LINE, CombField, TickField, LineField
 from schemas import Form93Data
 
 BASE_DIR   = os.path.dirname(os.path.abspath(__file__))
-TEMPLATE   = os.path.join(BASE_DIR, "..", "templates", "Form93.pdf")
+TEMPLATE   = os.path.join(BASE_DIR,  "templates", "Form93.pdf")
 # OUTPUT_DIR = os.path.join(BASE_DIR, "..", "generated")
 
 TEXT_COLOR  = (0.0, 0.0, 0.0)   # dark navy
